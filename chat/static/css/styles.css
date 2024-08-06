@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #0c1618;
+    align-items: center;
+}
+
+.wrapper-logo {
+    display: flex;
+    position: absolute;
+    left: 170px;
+    width: 70px;
+    height: 70px;
+    padding: 0;
+}
+
+.wrapper-logo img {
+    transform: scale(1.2);
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
